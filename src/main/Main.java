@@ -23,7 +23,9 @@ public class Main extends javax.swing.JFrame {
     public Main() {
         initComponents();
         
-        switchButton4.setForeground(new Color(255, 227, 138));
+        switchButton4.setForeground(new Color(244, 238, 169));
+        
+        getContentPane().setBackground(new Color(255, 255, 255));
         
         
         buttonPressed(switchButton1, jLabel2);
