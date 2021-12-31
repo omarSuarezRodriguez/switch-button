@@ -23,6 +23,8 @@ public class Main extends javax.swing.JFrame {
     public Main() {
         initComponents();
         
+        switchButton4.setForeground(new Color(255, 227, 138));
+        
         
         buttonPressed(switchButton1, jLabel2);
         buttonPressed(switchButton2, jLabel3);
@@ -76,6 +78,12 @@ public class Main extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel2.setText("Off");
+
+        switchButton2.setBackground(new java.awt.Color(234, 84, 85));
+
+        switchButton3.setBackground(new java.awt.Color(103, 111, 163));
+
+        switchButton4.setBackground(new java.awt.Color(255, 153, 153));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel3.setText("Off");
