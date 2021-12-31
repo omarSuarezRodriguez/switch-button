@@ -29,7 +29,7 @@ public class SwitchButton extends Component {
     private boolean selected;
     private boolean mouseOver;
     // To set velocity
-    private float speed = 1.3f;
+    private float speed = 0.6f;
     private List<EventSwitchSelected> events;
     
     
